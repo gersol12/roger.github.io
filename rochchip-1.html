@@ -20,6 +20,36 @@
     </p>
 </div>
 
+ <style>
+        /* Add styles for scrolling photo gallery */
+        .gallery {
+            overflow: hidden; /* Hide overflow */
+            width: 100%; /* Full width */
+            background-color: #f2f2f2; /* Background color */
+            margin: 20px 0; /* Margin for spacing */
+        }
+
+        .scrolling-photos {
+            display: flex; /* Flexbox for horizontal layout */
+            animation: scroll 10s linear infinite; /* Animation effect */
+        }
+
+        .scrolling-photos img {
+            width: 200px; /* Set image width */
+            height: auto; /* Maintain aspect ratio */
+            margin-right: 10px; /* Space between images */
+        }
+
+        @keyframes scroll {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(-100%); /* Scroll to the left */
+            }
+        }
+
+
     <style>
         .instagram-container {
             display: flex; /* Use flexbox for alignment */
@@ -107,6 +137,22 @@
 
 </p>
                 </div>
+            </div>
+            <!-- Scrolling Photo Gallery Section -->
+            <section class="gallery">
+                <div class="scrolling-photos">
+                    <img src="image1.jpg" alt="Photo 1">
+                    <img src="image2.jpg" alt="Photo 2">
+                    <img src="image3.jpg" alt="Photo 3">
+                    <img src="image4.jpg" alt="Photo 4">
+                    <img src="image5.jpg" alt="Photo 5">
+                </div>
+            </section>
+        </div>
+    </section>
+
+
+                
             </div>
         </div>
     </section>
