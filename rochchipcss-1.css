@@ -48,18 +48,23 @@ Copy code
     text-align: center;          /* Center the text */
     margin: 20px auto;           /* Auto margin to center the div */
     padding: 20px;               /* Add some padding for space */
-    border: 2px solid #000;      /* Add a black border */
+    border: 2px solid #0000FF;   /* Blue border */
     max-width: 600px;            /* Set max width to control layout */
     border-radius: 10px;         /* Rounded corners for a smoother look */
-    background-color: #0000FF;   /* Light background color */
+    background-color: #808080;   /* Set background color to grey */
 }
 
 /* Increase the size of the phone number */
 .phone-number {
     font-size: 24px;             /* Larger font size for the phone number */
     font-weight: bold;           /* Make the number bold */
-    color: #F5F5F5;                 /* Darker color for better readability */
+    color: #F5F5F5;              /* Set text color to white */
     text-decoration: none;       /* Remove underline */
+    border: 2px solid #0000FF;   /* Blue border around text */
+    padding: 5px 10px;           /* Add padding for space around text */
+    display: inline-block;       /* Ensure border surrounds the text properly */
+    background-color: #333;      /* Optional: Dark background for text */
+    border-radius: 5px;          /* Rounded corners for the text box */
 }
 
 
