@@ -76,15 +76,14 @@ nav ul li a:hover {
 }
 
 .appointment-section h1 {
-    font-size: 8px !important;  /* Reduced size for "Book An Appointment" */
+    font-size: 8px !important; /* Force size for "Book An Appointment" */
     color: #fff; /* Keep text color white */
 }
 
 .appointment-section p {
-    font-size: 5px  !important;/* Reduced size for phone number */
+    font-size: 5px !important; /* Force size for phone number */
     color: #fff; /* Keep text color white */
 }
-
 /* Navigation Styles */
 nav {
     overflow: hidden; /* Clear floats */
