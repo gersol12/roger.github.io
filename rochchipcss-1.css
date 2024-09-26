@@ -76,11 +76,11 @@ nav ul li a:hover {
 }
 
 .appointment h1 {
-    font-size: 12px; /* Further reduced size for "Book An Appointment" */
+    font-size: 8px; /* Further reduced size for "Book An Appointment" */
 }
 
 .appointment p {
-    font-size: 10px; /* Further reduced size for phone number */
+    font-size: 4px; /* Further reduced size for phone number */
 }
 
 /* Navigation Styles */
