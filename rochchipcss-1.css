@@ -69,7 +69,7 @@ nav ul li a:hover {
 /* Hero Section (Home) */
 #home {
     background: url('https://raw.githubusercontent.com/gersol12/roger.github.io/main/rockchip.jpeg') no-repeat center center;
-    background-size: 550px 350px; /* Change to desired size */
+    background-size: 530px 320px; /* Change to desired size */
     height: 100vh; /* Full height of the viewport */
     display: flex;
     justify-content: center;
