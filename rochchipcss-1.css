@@ -43,6 +43,27 @@ Copy code
 }
 
 
+nav {
+    overflow: hidden; /* Clear floats */
+    background-color: rgba(51, 51, 51, 0.8);
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    display: inline-block; /* Allows the ul to sit next to the floated image */
+    vertical-align: middle; /* Centers it vertically with the image */
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px; /* Increased margin for better spacing */
+}
+
+
+
+
 /* Header Styles */
 header {
     background-color: rgba(51, 51, 51, 0); /* Semi-transparent background */
