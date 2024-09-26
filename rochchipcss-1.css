@@ -76,27 +76,26 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Center the "Book An Appointment" section and style it */
+
+* Center the "Book An Appointment" section and add a border */
 .appointment-section {
-    text-align: center;              /* Center the text inside */
-    margin: 20px auto;               /* Center the section horizontally */
-    padding: 5px 10px;               /* Reduce padding to half */
-    border: 1px solid #FFFFFF;       /* Reduce border size slightly */
-    max-width: 150px;                /* Reduce max-width to half */
-    border-radius: 4px;              /* Reduce border radius to half */
-    background-color: rgba(51, 51, 51, 0.7); /* Slightly transparent background */
-    color: white;                    /* Set text color to white */
+    text-align: center;          /* Center the text */
+    margin: 4px auto;                /* Auto margin to center the div */
+    padding: 1px;               /* Add some padding for space */
+    border: 2px solid #FFFFFF;  /* Border */
+    max-width: 150px;           /* Set max width to control layout */
+    border-radius: 4px;        /* Rounded corners for a smoother look */
+    background-color: rgba(51, 51, 51, 0); /* 50% transparency */
 }
 
-/* Additional styling for content inside */
-.appointment-section h2 {
-    font-size: 0.75em;               /* Reduce heading font size by half */
-    margin-bottom: 5px;              /* Reduce space below the heading */
+.appointment-section h1 {
+    font-size: 12px; /* Force size for "Book An Appointment" */
+    color: #fff; /* Keep text color white */
 }
 
 .appointment-section p {
-    margin: 0;                       /* Remove extra margin around the paragraph */
-    font-size: 0.5em;                /* Reduce paragraph font size by half */
+    font-size: 8px; /* Force size for phone number */
+    color: #FFA500; /* Set text color */
 }
 
 /* Hero Section (Home) */
