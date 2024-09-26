@@ -68,7 +68,7 @@ nav ul li a:hover {
 
 /* Hero Section (Home) */
 #home {
-    background: url('https://raw.githubusercontent.com/gersol12/roger.github.io/main/bgmain.jpeg') no-repeat center center;
+    background: url('https://raw.githubusercontent.com/gersol12/roger.github.io/main/reb.jpeg') no-repeat center center;
 background-size: 400px 200px; /* Change to desired width and height */
     height: 100vh; /* Full height of the viewport */
     display: flex;
