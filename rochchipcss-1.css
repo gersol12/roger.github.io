@@ -82,7 +82,7 @@ nav ul li a:hover {
 
 .appointment-section p {
     font-size: 5px !important; /* Force size for phone number */
-    color: #fff; /* Keep text color white */
+    color: #FFA500; /* Keep text color white */
 }
 /* Navigation Styles */
 nav {
