@@ -11,13 +11,8 @@ body {
     line-height: 1.6;
     color: #333;
     background-color: #f4f4f4;
-    margin: 0;
-
-    
 }
 
-css
-Copy code
 /* Social Link Styling */
 .social-link {
     display: inline-block;
@@ -33,7 +28,6 @@ Copy code
 .social-link:hover .social-logo {
     opacity: 0.8;
 }
-
 
 /* Container for max-width */
 .container {
@@ -85,7 +79,7 @@ nav ul li a:hover {
 /* Center the "Book An Appointment" section and add a border */
 .appointment-section {
     text-align: center;          /* Center the text */
-    margin: 0px ;          /* Auto margin to center the div */
+    margin: 0px;                /* Auto margin to center the div */
     padding: 3px;               /* Add some padding for space */
     border: 2px solid #000000;  /* Border */
     max-width: 600px;           /* Set max width to control layout */
@@ -94,15 +88,14 @@ nav ul li a:hover {
 }
 
 .appointment-section h1 {
-    font-size: 14px !important; /* Force size for "Book An Appointment" */
+    font-size: 14px; /* Force size for "Book An Appointment" */
     color: #fff; /* Keep text color white */
 }
 
 .appointment-section p {
-    font-size: 10px !important; /* Force size for phone number */
-    color: #FFA500; /* Keep text color white */
+    font-size: 10px; /* Force size for phone number */
+    color: #FFA500; /* Set text color */
 }
-
 
 /* Hero Section (Home) */
 #home {
@@ -115,26 +108,16 @@ nav ul li a:hover {
     color: #fff;
     text-align: center;
 }
-}
-#home h2 {
-    font-size: 48px;
-    margin-bottom: 20px;
-}
 
-/* Make the specific texts white */
 #home h2 {
     font-size: 70px; /* Increase the font size for h2 */
+    margin-bottom: 20px; /* Keep the margin for spacing */
 }
 
 #home p {
-    font-size: 30px; /* Increase the font size for paragraph */
-}/
-    color: #fff; /* Set font color to white */
-}
-
-#home p {
-    font-size: 20px;
+    font-size: 20px; /* Adjust paragraph font size */
     margin-bottom: 30px;
+    color: #fff; /* Set font color to white */
 }
 
 #home .btn {
