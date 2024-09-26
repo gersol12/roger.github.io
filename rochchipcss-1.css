@@ -70,8 +70,8 @@ nav ul li a:hover {
 .appointment-section {
     text-align: center;          /* Center the text */
     margin: 20px auto;           /* Auto margin to center the div */
-    padding: 10px;               /* Add some padding for space */
-    border: 2px solid #0000FF;   /* Blue border */
+    padding: 5px;               /* Add some padding for space */
+    border: 2px solid #000000;   /* Blue border */
     max-width: 600px;            /* Set max width to control layout */
     border-radius: 10px;         /* Rounded corners for a smoother look */
     background-color: #333;   /* Set background color to grey */
@@ -94,7 +94,7 @@ nav ul li a:hover {
     color: #F5F5F5;              /* Set text color to white */
     text-decoration: none;       /* Remove underline */
     border: 2px solid #0000FF;   /* Blue border around text */
-    padding: 5px 10px;           /* Add padding for space around text */
+    padding: 5px 5px;           /* Add padding for space around text */
     display: inline-block;       /* Ensure border surrounds the text properly */
     background-color: #333;      /* Optional: Dark background for text */
     border-radius: 5px;          /* Rounded corners for the text box */
