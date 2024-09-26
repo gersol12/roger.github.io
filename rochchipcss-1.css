@@ -89,7 +89,7 @@ nav ul li a:hover {
 
 /* Increase the size of the phone number */
 .phone-number {
-    font-size: 18px;             /* Larger font size for the phone number */
+    font-size: 10px;             /* Larger font size for the phone number */
     font-weight: bold;           /* Make the number bold */
     color: #F5F5F5;              /* Set text color to white */
     text-decoration: none;       /* Remove underline */
@@ -120,7 +120,7 @@ header .logo p {
 }
 
 nav {
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 nav ul {
@@ -130,7 +130,7 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    margin: 0 10px;
+    margin: 0 5px;
 }
 
 nav ul li a {
