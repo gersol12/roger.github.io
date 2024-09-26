@@ -43,6 +43,29 @@ Copy code
 }
 
 
+/* Header Styles */
+header {
+    background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent background */
+    color: #fff;
+    padding: 20px 0;
+    position: fixed; /* Keeps the navbar at the top */
+    width: 100%;
+    z-index: 1000; /* Ensure the header stays on top */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth transition on hover */
+}
+
+nav ul li a:hover {
+    color: #ff6f61; /* Change hover effect color */
+    text-decoration: underline;
+}
+
+
 /* Center the "Book An Appointment" section and add a border */
 .appointment-section {
     text-align: center;          /* Center the text */
