@@ -86,7 +86,7 @@ nav ul li a:hover {
 /* Make the specific texts black */
 #home h2, /* Targets the h2 element */
 #home p {  /* Targets the paragraph */
-    color: #000; /* Set font color to black */
+    color: #fff; /* Set font color to black */
 }
 
 #home p {
