@@ -77,6 +77,16 @@ nav ul li a:hover {
     background-color: #333;   /* Set background color to grey */
 }
 
+
+.appointment-section h2 {
+    font-size: 14px; /* Adjust the size for the heading */
+}
+
+.appointment-section p {
+    font-size: 8px; /* Adjust the size for any paragraph text */
+}
+
+
 /* Increase the size of the phone number */
 .phone-number {
     font-size: 18px;             /* Larger font size for the phone number */
