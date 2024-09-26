@@ -270,7 +270,7 @@ nav li {
 /* Media query for mobile view */
 @media (max-width: 768px) {
     nav ul {
-        flex-direction: column; /* Change to vertical layout on mobile */
+        flex-direction: flex; /* Change to vertical layout on mobile */
     }
 }
 
