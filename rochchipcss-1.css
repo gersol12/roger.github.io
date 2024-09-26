@@ -16,6 +16,24 @@ body {
     
 }
 
+css
+Copy code
+/* Social Link Styling */
+.social-link {
+    display: inline-block;
+    margin-left: 15px; /* Adjust this margin as needed */
+}
+
+.social-logo {
+    width: 20px;  /* Reduced width */
+    height: 20px; /* Reduced height */
+    vertical-align: middle;
+}
+
+.social-link:hover .social-logo {
+    opacity: 0.8;
+}
+
 
 /* Container for max-width */
 .container {
