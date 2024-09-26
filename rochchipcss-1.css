@@ -42,6 +42,27 @@ Copy code
     margin: 0 auto;
 }
 
+
+/* Center the "Book An Appointment" section and add a border */
+.appointment-section {
+    text-align: center;          /* Center the text */
+    margin: 20px auto;           /* Auto margin to center the div */
+    padding: 20px;               /* Add some padding for space */
+    border: 2px solid #000;      /* Add a black border */
+    max-width: 600px;            /* Set max width to control layout */
+    border-radius: 10px;         /* Rounded corners for a smoother look */
+    background-color: #f9f9f9;   /* Light background color */
+}
+
+/* Increase the size of the phone number */
+.phone-number {
+    font-size: 24px;             /* Larger font size for the phone number */
+    font-weight: bold;           /* Make the number bold */
+    color: #333;                 /* Darker color for better readability */
+    text-decoration: none;       /* Remove underline */
+}
+
+
 /* Header Styles */
 header {
     background-color: #333;
