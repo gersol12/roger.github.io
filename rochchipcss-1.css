@@ -65,7 +65,7 @@ nav ul li a:hover {
 }
 
 /* Center the "Book An Appointment" section and add a border */
-.appointment-section {
+."appointment-section" {
     text-align: center;          /* Center the text */
     margin: 0px ;          /* Auto margin to center the div */
     padding: 3px;               /* Add some padding for space */
