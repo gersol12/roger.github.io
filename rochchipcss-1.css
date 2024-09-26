@@ -46,17 +46,35 @@ Copy code
 header {
     background-color: rgba(51, 51, 51, 0); /* Semi-transparent background */
     color: #fff;
-    padding: 10px 0;
+    padding: 5px 0; /* Reduced padding for a shorter navbar */
     position: fixed; /* Keeps the navbar at the top */
     width: 100%;
     z-index: 1000; /* Ensure the header stays on top */
 }
 
+nav {
+    text-align: center; /* Center aligns the content inside the nav */
+}
+
+nav ul {
+    list-style: none; /* Remove bullets */
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+    display: inline-block; /* Allows the ul to sit next to floated elements */
+}
+
+nav ul li {
+    display: inline-block; /* Aligns the list items in a row */
+    margin: 0 10px; /* Adjust spacing between each item */
+}
+
 nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s ease; /* Smooth transition on hover */
+    color: #fff; /* Link color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold text */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+    font-size: 10px; /* Adjust font size if needed */
+    padding: 5px; /* Add padding to links */
 }
 
 nav ul li a:hover {
@@ -84,39 +102,6 @@ nav ul li a:hover {
     font-size: 10px !important; /* Force size for phone number */
     color: #FFA500; /* Keep text color white */
 }
-/* Navigation Styles */
-nav {
-    overflow: hidden; /* Clear floats */
-    background-color: rgba(51, 51, 51, 0);
-    padding: 4px 0;
-    text-align: center; /* Center aligns the content inside the nav */
-}
-
-nav ul {
-    list-style: none;
-    margin: 0; /* Reset margin */
-    padding: 0; /* Reset padding */
-    display: inline-block; /* Allows the ul to sit next to floated elements */
-}
-
-nav ul li {
-    display: inline-block; /* Aligns the list items in a row */
-    margin: 0 0px; /* Spacing between each item */
-}
-
-nav ul li a {
-    color: #fff; /* Link color */
-    text-decoration: none; /* Remove underline */
-    font-weight: bold; /* Bold text */
-    transition: color 0.3s ease; /* Smooth transition for color change */
-    font-size: 12px; /* Further reduced size for navigation items */
-}
-
-nav ul li a:hover {
-    color: #ff6f61; /* Change hover effect color */
-    text-decoration: underline;
-}
-
 
 /* Header Styles */
 header {
