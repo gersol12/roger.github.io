@@ -83,10 +83,10 @@ nav ul li a:hover {
     margin-bottom: 20px;
 }
 
-/* Make the specific texts black */
+/* Make the specific texts white */
 #home h2, /* Targets the h2 element */
 #home p {  /* Targets the paragraph */
-    color: #fff; /* Set font color to black */
+    color: #fff; /* Set font color to white */
 }
 
 #home p {
