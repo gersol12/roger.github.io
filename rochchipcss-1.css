@@ -73,7 +73,7 @@ nav ul li a:hover {
     height: 100vh; /* Full height of the viewport */
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: right;
     color: #fff;
     text-align: center;
 }
