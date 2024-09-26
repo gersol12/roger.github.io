@@ -68,7 +68,7 @@ nav ul li a:hover {
 
 /* Hero Section (Home) */
 #home {
-    background: url('https://github.com/gersol12/roger.github.io/blob/main/rochchipcss-1.css') no-repeat center center/cover;
+    background: url('https://raw.githubusercontent.com/gersol12/roger.github.io/main/rockchip.jpeg') no-repeat center center/cover; /* Updated URL */
     height: 100vh;
     display: flex;
     justify-content: center;
