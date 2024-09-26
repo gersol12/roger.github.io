@@ -68,13 +68,13 @@ nav ul li a:hover {
 
 /* Hero Section (Home) */
 #home {
-    background: url('https://raw.githubusercontent.com/gersol12/roger.github.io/main/bgmain.jpeg') no-repeat center center;
-    background-size: 400px 200px; /* Set size */
-    height: 100vh; /* Full height of the viewport */
+    background: url('https://github.com/gersol12/roger.github.io/blob/main/bgmain.jpeg') no-repeat center center;
+    background-size: cover; /* Scales the image to cover the section */
+    height: 100vh; /* Full viewport height */
     display: flex;
     justify-content: center;
-    align-items: right;
-    color: #fff;
+    align-items: center;
+    color: #fff; /* Text color */
     text-align: center;
 }
 
