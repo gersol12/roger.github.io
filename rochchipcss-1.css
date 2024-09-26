@@ -51,7 +51,7 @@ Copy code
     border: 2px solid #0000FF;   /* Blue border */
     max-width: 600px;            /* Set max width to control layout */
     border-radius: 10px;         /* Rounded corners for a smoother look */
-    background-color: #808080;   /* Set background color to grey */
+    background-color: #333;   /* Set background color to grey */
 }
 
 /* Increase the size of the phone number */
