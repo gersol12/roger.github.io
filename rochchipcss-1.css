@@ -67,7 +67,7 @@ nav ul li a:hover {
 /* Center the "Book An Appointment" section and add a border */
 .appointment-section {
     text-align: center;          /* Center the text */
-    margin: 10px auto;          /* Auto margin to center the div */
+    margin: 0px ;          /* Auto margin to center the div */
     padding: 3px;               /* Add some padding for space */
     border: 2px solid #000000;  /* Border */
     max-width: 600px;           /* Set max width to control layout */
@@ -102,7 +102,7 @@ nav ul {
 
 nav ul li {
     display: inline-block; /* Aligns the list items in a row */
-    margin: 0 15px; /* Spacing between each item */
+    margin: 0 0px; /* Spacing between each item */
 }
 
 nav ul li a {
