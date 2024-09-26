@@ -65,7 +65,7 @@ nav ul li a:hover {
 }
 
 /* Center the "Book An Appointment" section and add a border */
-.appointment-section {
+.appointment {
     text-align: center;          /* Center the text */
     margin: 10px auto;          /* Auto margin to center the div */
     padding: 3px;               /* Add some padding for space */
@@ -75,11 +75,11 @@ nav ul li a:hover {
     background-color: #333;     /* Set background color to grey */
 }
 
-.appointment-section h1 {
+.appointment h1 {
     font-size: 16px; /* Further reduced size for "Book An Appointment" */
 }
 
-.appointment-section p {
+.appointment p {
     font-size: 12px; /* Further reduced size for phone number */
 }
 
