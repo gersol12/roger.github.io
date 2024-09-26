@@ -82,7 +82,6 @@ nav ul li a:hover {
     text-align: center;          /* Center the text */
     margin: 2px auto;                /* Auto margin to center the div */
     padding: 1px;               /* Add some padding for space */
-    border: 1px solid #FFFFFF;  /* Border */
     max-width: 150px;           /* Set max width to control layout */
     background-color: rgba(51, 51, 51, 0); /* 50% transparency */
 }
