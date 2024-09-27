@@ -140,6 +140,7 @@ nav ul li a:hover {
 #home h2 {
     font-size: 50px; /* Increase the font size for h2 */
     margin-bottom: 20px; /* Keep the margin for spacing */
+       color: ##f0f0f0; /* Set font color to white */
 }
 
 #home p {
